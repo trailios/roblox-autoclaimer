@@ -1,4 +1,5 @@
-import aiosonic, re, time, requests, os, json, pyfiglet, asyncio, random, datetime
+import aiosonic, re, time, requests, os, json, pyfiglet, asyncio, random
+from datetime import datetime
 
 with open("config.json", "r") as f:
     config = json.load(f)
