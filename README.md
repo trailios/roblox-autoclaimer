@@ -24,6 +24,8 @@ Make sure to change the config.json to your stuff
 ```
 
 This works by using the api (a bit slower) 
+
+If you have questions join here: https://discor.gg/tkd
 ## Authors
 
 - [@bruhb0y](https://www.github.com/bruhb0y)
