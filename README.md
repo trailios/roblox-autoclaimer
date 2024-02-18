@@ -16,7 +16,10 @@ Make sure to change the config.json to your stuff
 {
     "version": "3.2.8",
     "token": "MTEzNzQ4NDA0NTUwMTA5MjAxMg...",
-    "channel": "123456789"
+    "channel": "1208536848637624343",
+    "logs": "https://discord.com/api/webhooks/",
+    "detections": "https://discord.com/api/webhooks/",
+    "errors": "https://discord.com/api/webhooks/"
 }
 ```
 
