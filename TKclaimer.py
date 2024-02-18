@@ -95,12 +95,13 @@ def join(groupid, cookie, xcsrf_token):
     return response
 
 
-def checkgroup(groupid, cookie):
+def checkgroup(groupid, cookie, xcsrf_token):
     today = datetime.now().strftime("%Y-%m-%d")
     # https://catalog.roblox.com/v1/search/items/details - with params
     headers = {
         "Content-Type": "application/json",
         "Cookie": f"GuestData=UserID=-1458690174; .ROBLOSECURITY={cookie}; RBXEventTrackerV2=CreateDate=11/19/2023 12:07:42 PM&rbxid=5189165742&browserid=200781876902;",
+        "x-csrf-token": f"{xcsrf_token}",
     }
     resp = requests.get(f"{api}/v1/groups/{groupid}")
     resp2 = requests.get(
@@ -196,7 +197,7 @@ async def main(groupid):
             ]
         }
         requests.post(logs, json=claimembed)
-        checkgroup(groupid, cookie)
+        checkgroup(groupid, cookie, xcsrf_token)
     else:
         print_error(f"Failed to claim group: {groupid}")
         failembed = {
