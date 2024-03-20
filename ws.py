@@ -37,7 +37,7 @@ embed = {
     "embeds": [
         {
             "title": "TK Claimer",
-            "description": "Claimer started on " + str(len(channels)) + " channels",
+            "description": "Claimer started",
             "footer": {
                 "text": "Made by: TK aka Traili your favourite developer",
                 "icon_url": "https://cdn.discordapp.com/avatars/1137484045501092012/4ea0960613ba5ac4dc18ccc95fe34b70.webp?size=1024&format=webp&width=0&height=256",
