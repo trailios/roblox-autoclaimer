@@ -49,7 +49,7 @@ embed = {
 requests.post(webhooks["logs"], json=embed)
 
 async def on_message(ws, message):
-    global session_id, heartbeat_interval, daat2, channels, seq_num, resumeURL, groupsid, groupsids
+    global session_id, heartbeat_interval, daat2, seq_num, resumeURL, groupsid, groupsids
 
     try:
         data = json.loads(message)
