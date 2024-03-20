@@ -1,8 +1,10 @@
 {
-    "version": "3.2.8",
+    "version": "5.3.4",
     "token": "MTEzNzQ4NDA0NTUwMTA5MjAxMg...",
-    "channel": "1208536848637624343",
-    "logs": "https://discord.com/api/webhooks/",
-    "detections": "https://discord.com/api/webhooks/",
-    "errors": "https://discord.com/api/webhooks/"
+    "webhooks": {
+        "logs": "https://discord.com/api/webhooks/",
+        "detections": "Not done yet",
+        "errors": "Not done yet"
+    },
+    "pyself": true
 }
