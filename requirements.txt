@@ -1,0 +1,5 @@
+websocket
+ctypes
+pyfiglet
+socket
+ssl
