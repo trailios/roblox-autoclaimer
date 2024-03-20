@@ -23,7 +23,6 @@ groupsids = []
 try:
     with open("config.json", "r", encoding="utf-8") as daat2:
         data = json.load(daat2)
-        channels: list = data["channels"]
         webhooks = data["webhooks"]
         prefix = "+"
 except FileNotFoundError:
@@ -66,7 +65,6 @@ async def on_message(ws, message):
         logo()
         startup(f"Logged in as {data['d']['user']['username']}#{data['d']['user']['discriminator']}")
         startup("Session id: " + session_id)
-        startup("Claimer started in " + str(len(channels)) + " channels")
         run()
         heartbeatwrapper()
     elif data["op"] == 10:
