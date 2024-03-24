@@ -4,7 +4,7 @@ This took a long time to make and wasnt easy
 
 Make sure to add enough cookies in cookies.txt
 
-NOT COMPLETY FINISHED 
+75% completed i just have to make the gateway error handling better with the resuming session stuff
 
 Make sure to change the config.json to your stuff
 
@@ -14,8 +14,8 @@ Make sure to change the config.json to your stuff
     "token": "MTEzNzQ4NDA0NTUwMTA5MjAxMg...",
     "webhooks": {
         "logs": "https://discord.com/api/webhooks/",
-        "detections": "Not done yet",
-        "errors": "Not done yet"
+        "detections": "https://discord.com/api/webhooks/",
+        "errors": "https://discord.com/api/webhooks/"
     },
 }
 ```
