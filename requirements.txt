@@ -3,3 +3,7 @@ ctypes
 pyfiglet
 socket
 ssl
+uvloop
+curl-cffi
+colorama
+datetime
