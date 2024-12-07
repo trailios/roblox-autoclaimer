@@ -1,9 +1,11 @@
+websockets
+aiosonic
+curl_cffi
+colorama
+rich
 websocket-client
-ctypes
 pyfiglet
+uvloop
+datetime
 socket
 ssl
-uvloop
-curl-cffi
-colorama
-datetime
