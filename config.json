@@ -5,5 +5,5 @@
         "logs": "https://discord.com/api/webhooks/",
         "detections": "Not done yet",
         "errors": "Not done yet"
-    },
+    }
 }
